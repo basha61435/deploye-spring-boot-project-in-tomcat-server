@@ -24,7 +24,7 @@ public class StudentControoler {
 //	public String home() {
 //		return "index.html";
 //	}
-
+	long lb ="basha";
 	@PostMapping("/saveStudentDetails")
 	public StudentDetails saveStudent(@RequestBody StudentDetails student) {
 		return studentService.saveStudent(student);
